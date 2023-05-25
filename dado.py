@@ -5,15 +5,20 @@ def rolar_dado():
 
 while True:
     input("Pressione Enter para rolar o dado...")
+
     resultado = rolar_dado()
+
     print("O resultado do dado é:", resultado)
+
     if resultado >= 5:
-     print("Número Alto")
+        print("Número Alto")
      
 
-    elif resultado >=3 and resultado < 4:
+    elif resultado == 3 or resultado == 4:
         print("Número Mediano")
     
     else:
         print("Número baixo!")
+    
+
     
